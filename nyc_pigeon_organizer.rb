@@ -16,13 +16,10 @@ data.each do |keys,values|
       if pigeon_list[name][keys] == nil 
         pigeon_list[name][keys] = [attributes.to_s]
       else
-     
         pigeon_list[name][keys] << attributes.to_s
       end
       
     end
-    
-    
     
   end
   
